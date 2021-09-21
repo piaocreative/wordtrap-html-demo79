@@ -1,0 +1,208 @@
+
+/* ----------------------------------------------------------------
+
+	shop.scss
+
+-----------------------------------------------------------------*/
+
+
+/* ----------------------------------------------------------------
+	Shop
+-----------------------------------------------------------------*/
+
+
+/* ----------------------------------------------------------------
+	Add here styles for shop pages. Thanks!
+-----------------------------------------------------------------*/
+
+/* Category
+-----------------------------------------------------------------*/
+.category {
+	margin-bottom: 0.875rem;
+
+	.category-image {
+		img {
+			width: 100%;
+			max-height: 13.5rem;
+		}
+	}
+
+	.category-details {
+		padding: 0.875rem 0;
+	}
+
+	.category-title {
+		font-family: $heading-font;
+		font-weight: 400;
+	}
+}
+
+/* Product
+-----------------------------------------------------------------*/
+
+.product {
+	margin-bottom: 2.875rem;
+	position: relative;
+	border-bottom: 1px solid #dddddd;
+
+	.product-image {
+		img {
+			width: 100%;
+		}
+	}
+
+	.product-details {
+		padding-top: 0.875rem;
+		z-index: 1;
+	}
+
+	.product-price {
+		font-size: 1.25rem;
+		font-family: $heading-font;
+		font-weight: 400;
+		line-height: 1;
+
+		del {
+			font-size: 1.25rem;
+			color: #919191;
+		}
+	}
+
+	.product-info {
+		font-family: $heading-font;
+		font-weight: 400;
+		color: #989898;
+	}
+
+	.product-title {
+		font-family: $heading-font;
+		font-size: 1.25rem;
+		font-weight: 400;
+	}
+
+	.product-btns {
+		@include transition(all 0.3s ease-in-out);
+	}
+
+	.add-to-cart {
+		font-size: 1.5rem;
+		color: $dark;
+		text-decoration: none;
+
+		&:hover {
+			color: $theme-color;
+		}
+	}
+
+	.add-to-wishlist {
+		position: absolute;
+		top: 2rem;
+		left: 2rem;
+		color: $dark;
+		line-height: 1;		
+		z-index: 2;	
+
+		@include transition(all 0.3s ease-in-out);				
+
+		&:hover {
+			color: $theme-color;
+		}
+	}
+	
+.onnew,
+.onsale {
+	font-family: $heading-font;
+    font-size: 1.25rem;
+    line-height: 1;
+    font-weight: 500;
+    position: absolute;
+    right: 2rem;
+    top: 2rem;
+    z-index: 2;
+	text-transform: uppercase;
+	letter-spacing: 0.03rem;
+}
+
+	.onnew {
+		color: $theme-color;
+	}
+
+	.onsale {
+		color: #ff0101;
+	}
+}
+
+/* Ads
+-----------------------------------------------------------------*/
+.ads {
+    position: relative;
+    display: block;
+	margin-bottom: 1.5rem;
+
+	&.ads1 {
+    	.ads-body {
+			background-color: #2a2b2d;
+		}
+
+		.ads-thumbnail {
+			max-width: 16rem;
+			position: absolute;
+			top: -2rem;
+			right: 3rem;
+
+			@include media-breakpoint-down(sm) {
+				max-width: 8rem;
+			}
+		}
+    }
+
+	&.ads2 {
+		.ads-body {
+			background-color: $theme-color;
+
+			h4 {
+				&:after {
+					position: absolute;
+					display: inline-block;
+					content: "";
+					width: 60%;
+					height: 1px;
+					background-color: $white;
+					vertical-align: top;
+					margin-top: 0.5rem;
+					margin-left: 1rem;
+				}
+			}
+
+			h3 {
+				font-size: 3rem;
+			}
+
+			p {
+				font-size: 1.125rem;
+
+				&:after {
+					position: relative;
+					display: block;
+					content: "";
+					width: 62%;
+					height: 1px;
+					background-color: $white;
+					margin-top: 2rem;
+				}
+			}
+		}
+
+		.ads-thumbnail {
+			position: absolute;
+			bottom: -4rem;
+			right: -2.8rem;
+			max-width: 26rem;
+
+			@include media-breakpoint-down(sm) {
+				max-width: 22rem;
+				right: 0;
+			}
+		}
+	}
+}
