@@ -29,30 +29,37 @@
 		letter-spacing: 0.05rem;
 	}
 
-	.sub-title {
-		font-weight: 500;
-		font-size: 0.8125rem;
-		color: #969696;
-		font-family: $heading-font;
-
-		div {
-			&:nth-child(1) {
-				&:after {
-					content: "";
-					position: relative;
-					display: inline-block;
-					width: 2rem;
-					height: 2px;
-					vertical-align: middle;
-					background-color: #e5e5e5;
-					margin: 0 1rem;
-				}
-			}
-		}
-	}
-
 	@include media-breakpoint-down(lg) {
 		padding-left: 1rem;
 		padding-right: 1rem;
+	}
+}
+
+.breadcrumb {
+	li {
+		a {
+			font-weight: 500;
+			font-size: 0.8125rem;
+			color: #969696;
+			font-family: $heading-font;
+			text-decoration: none;
+
+			&.active {
+				color: $theme-color;
+			}
+		}
+
+		&:first-child {
+			&:after {
+				content: "";
+				position: relative;
+				display: inline-block;
+				width: 2rem;
+				height: 2px;
+				vertical-align: middle;
+				background-color: #e5e5e5;
+				margin: 0 1rem;
+			}
+		}
 	}
 }

@@ -199,6 +199,10 @@
 			right: -2.8rem;
 			max-width: 26rem;
 
+			@include media-breakpoint-down(lg) {
+				right: -1rem;
+			}
+
 			@include media-breakpoint-down(sm) {
 				max-width: 22rem;
 				right: 0;
