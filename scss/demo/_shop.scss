@@ -32,7 +32,6 @@
 	}
 
 	.category-title {
-		font-family: $heading-font;
 		font-weight: 400;
 	}
 }
@@ -59,7 +58,6 @@
 	.product-price {
 		font-size: 1.25rem;
 		font-family: $heading-font;
-		font-weight: 400;
 		line-height: 1;
 
 		del {
@@ -70,12 +68,10 @@
 
 	.product-info {
 		font-family: $heading-font;
-		font-weight: 400;
 		color: #989898;
 	}
 
 	.product-title {
-		font-family: $heading-font;
 		font-size: 1.25rem;
 		font-weight: 400;
 	}

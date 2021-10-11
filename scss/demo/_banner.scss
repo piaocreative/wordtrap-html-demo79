@@ -34,20 +34,4 @@
         padding-left: 4.375rem;
         padding-right: 4.375rem;
     }
-
-    @include media-breakpoint-down(lg) {
-        &.about-banner {
-            img {
-                height: 66rem;
-            }
-        }
-    }
-
-    @include media-breakpoint-down(sm) {
-        &.about-banner {
-            img {
-                height: 54rem;
-            }
-        }
-    }
 }

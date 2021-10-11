@@ -36,12 +36,11 @@ $heading-font:                  'Poppins', sans-serif;
 
 // Font sizes
 $h1-font-size:                	5rem;
-$h1-about: 						          5.375rem;
 $h2-font-size:                	3.75rem;
 $h3-font-size:                	2.1875rem;
 $h4-font-size:                	1.5rem;
 $h5-font-size:                	1.25rem;
-$h6-font-size:               	  0.875rem;
+$h6-font-size:               	0.875rem;
 
 
 // border//
@@ -95,7 +94,7 @@ $container-max-widths: (
   xl: 80%
 );
 
-$grid-gutter-width:             2rem;
+$grid-gutter-width:             3.75rem;
 
 
 // Forms
@@ -122,7 +121,7 @@ $input-btn-focus-width:         1px;
 $input-focus-border-color:      $theme-color;
 
 $input-border-radius:           0rem;
-$input-border-radius-sm:        1rem !important;
+$input-border-radius-sm:        1rem;
 $input-border-radius-lg:        1.83rem;
 
 $input-font-weight:				      400;
@@ -153,8 +152,8 @@ $form-select-indicator-color:   #ffffff;
 // Buttons
 $btn-font-family:               $heading-font;
 
-$btn-padding-y:                 1.6rem;
-$btn-padding-x:                 4rem;
+$btn-padding-y:                 1.5rem;
+$btn-padding-x:                 2rem;
 $btn-font-size:                 0.875rem;
 
 $btn-padding-y-sm:              0.5rem;

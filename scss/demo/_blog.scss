@@ -32,7 +32,6 @@
 
 .post-content {
 	.entry-title {
-		font-family: $heading-font;
 		font-weight: 400;
 		font-size: 1.5rem;
 		line-height: 1;
@@ -41,9 +40,6 @@
 	.entry-meta {
 		a {
 			font-family: $heading-font;
-			font-weight: 400;
-			font-size: 1rem;
-			text-decoration:none;
 			color: #a7a7a7;
 		}
 	}

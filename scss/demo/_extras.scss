@@ -26,12 +26,10 @@
 .about-us-link {
 	display: inline-block;
 	background-color: $theme-color;
-	font-family: $body-font;
 	font-weight: 500;
 	font-size: .875rem;
 	color: $white;
 	padding: 1.2rem 2.5rem;
-	text-decoration: none;
 }
 
 #collection {
@@ -75,7 +73,6 @@
 	label {
 		color: $white;
 		font-size: 0.8rem;
-		font-family: $body-font;
 		display: block;
 		margin-bottom: -1rem;
 	}

@@ -20,16 +20,10 @@
 	position: relative;
 
 	p {
-		font-family: $body-font;
 		font-weight: 500;
-		line-height: 1.3rem!important;
+		line-height: 1.3rem;
 		color: $theme-color;
 		font-size: 0.875rem;
-	}
-
-	a {
-		font-family: $body-font;
-		font-weight: 400;
 	}
 
 	.widget-title {
@@ -95,11 +89,8 @@
 				margin-bottom: 0.3rem;
 
 				a {
-					font-family: $body-font;
 					font-size: 0.875rem;
-					font-weight: 400;
 					color: $white;
-					text-decoration: none;
 
 					&:hover {
 						color: $theme-color;
@@ -159,9 +150,7 @@
 			a {	
 				font-family: $heading-font;
 				font-size: 0.875rem;
-				font-weight: 400;
 				display: block;
-				text-decoration: none;
 				color: $white;
 				line-height: 1.5;
 				margin-bottom: 1rem;
@@ -204,36 +193,6 @@
 				.input-group-append {
 					margin-left: -3rem;
 					margin-bottom: 0.5rem;
-				}
-			}
-		}
-	}
-
-	// Widget - Products
-	&.widget-products {
-		.widget-content {
-			.product {
-				display: flex;
-				align-items: center;
-				margin-bottom: 0.625rem;
-
-				.product-image {
-					max-width: 9.75rem;
-				}
-
-				.product-details {
-					flex: 1;
-					padding: 0 1.25rem;					
-				}
-
-				.product-price {					
-					margin-bottom: 0.625rem;
-				}
-
-				.product-title {
-					a {
-						color: $white;																		
-					}					
 				}
 			}
 		}
