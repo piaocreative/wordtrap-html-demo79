@@ -8,17 +8,20 @@
 /* ----------------------------------------------------------------
 	Form Styles
 -----------------------------------------------------------------*/
-.contact-info {
+.contact {
 	@include media-breakpoint-up(lg) {
 		position: absolute;
 		bottom: 3rem;
-		left: 20%;
-		width: 60%;
+		left: 0;	
 		margin: auto;
-		padding: 2rem;
-		background-color: $white;
-	}
+		width: 100%;
+	}	
+}
 
+.contact-info {
+	padding: 2rem;
+	background-color: $white;
+	width: 60%;
 	@include media-breakpoint-down(xxl) {
 		width: 90%;
 	}
