@@ -53,11 +53,12 @@
 					a {
 						color: $white;		
 						display: inline-block;
-						line-height: 1.8125rem;	
+						line-height: 1.8125rem;
+						text-align: center;						
+						padding: 0.5rem 0.9375rem;
 						vertical-align: middle;
-						text-align: center;
-						border-radius: 0.5rem;	
 	
+						@include border-radius(0.5rem);
 						@include transition(all 0.3s ease-in-out);
 			
 						&:hover {
@@ -66,8 +67,7 @@
 			
 						i {
 							vertical-align: top;
-							line-height: 1.8125rem;
-							padding: 0.5rem;
+							line-height: 1.8125rem;							
 							font-size: 1.25rem;
 						}
 	
@@ -128,17 +128,12 @@
 			.payment-icon {
 				display: inline-block;
 				vertical-align: middle;
-				margin-right: .5rem;
-				width: 3rem;
-				height: 2rem;
-				padding: 0.2rem;
-				background-size: 80% auto;
-				background-repeat: no-repeat;
-				background-position: center;
-				border-radius: 0.5rem !important;
+				flex-grow: 1;
+
+				@include border-radius(0.5rem);
 
 				img {
-					width: 3rem !important;
+					max-width: 3.375rem;
 				}
 			}
 		}

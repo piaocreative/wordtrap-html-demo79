@@ -38,18 +38,18 @@
 
         <!-- Header
 		============================================= -->
-		<header id="header" class="transparent-header border-bottom">
+		<header id="header">
 
             <div id="header-wrap">
 
-                <nav class="navbar navbar-expand-xxl navbar-light py-1">
+                <nav class="navbar navbar-expand-xxl navbar-light">
 
                     <div class="container-fluid">
 
                         <!-- Logo
                         ============================================= -->
-                        <a href="index.html" class="navbar-brand m-0" data-dark-logo="images/logo.png">
-                            <img src="images/logo.png" alt="Saler Logo">
+                        <a href="index.html" class="navbar-brand" data-dark-logo="images/logo.png">
+                            <img src="images/logo.png" class="img-fluid" alt="Saler Logo">
                         </a>
                         
                         <!-- Navbar Toggler
@@ -64,52 +64,44 @@
 
                             <!-- Primary Navigation
                             ============================================= -->
-                            <nav id="primary-menu" class="mt-1">
-
-                                <ul class="navbar-nav gap-3">
-                                    <li class="nav-item">
-                                        <a href="#" class="nav-link">Home</a>
-                                    </li>                                  
-                                    <li class="nav-item">
-                                        <a href="#" class="nav-link">Shop</a>
-                                    </li>                                    
-                                    <li class="nav-item">
-                                        <a href="#" class="nav-link">Shipment</a>
-                                    </li>
-                                    <li class="nav-item">
-                                        <a href="#" class="nav-link">Catalogue</a>
-                                    </li>
-                                    <li class="nav-item">
-                                        <a href="#" class="nav-link">About Us</a>
-                                    </li>
-                                </ul>                                
-
-                            </nav><!-- #primary-menu -->
+                            <ul id="primary-menu" class="navbar-nav">
+                                <li class="nav-item">
+                                    <a href="#" class="nav-link">Home</a>
+                                </li>                                  
+                                <li class="nav-item">
+                                    <a href="#" class="nav-link">Shop</a>
+                                </li>                                    
+                                <li class="nav-item">
+                                    <a href="#" class="nav-link">Shipment</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a href="#" class="nav-link">Catalogue</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a href="#" class="nav-link">About Us</a>
+                                </li>
+                            </ul><!-- #primary-menu -->
 
                             <!-- Top Buttons
-                            ============================================= -->
-                            <div id="top-btns">
-                                
-                                <ul class="navbar-nav flex-row align-items-center">
-                                    <li class="nav-item">
-                                        <a href="#" class="nav-link"><i class="fas fa-search"></i></a>
-                                    </li>
-                                    <li class="nav-item">
-                                        <a href="#" class="nav-link"><i class="far fa-heart"></i></a>
-                                    </li>
-                                    <li class="nav-item">
-                                        <a href="#" class="nav-link">
-                                            <span data-cart-items="1">
-                                                <i class="fas fa-shopping-cart"></i>
-                                            </span>
-                                        </a>
-                                    </li>
-                                    <li class="nav-item">
-                                        <a href="#" class="nav-link"><i class="far fa-user"></i></a>
-                                    </li>
-                                </ul>
-
-                            </div><!-- #top-btns -->
+                            ============================================= -->                                
+                            <ul id="top-btns" class="navbar-nav flex-row align-items-center">
+                                <li class="nav-item">
+                                    <a href="#" class="nav-link"><i class="fas fa-search"></i></a>
+                                </li>
+                                <li class="nav-item">
+                                    <a href="#" class="nav-link"><i class="far fa-heart"></i></a>
+                                </li>
+                                <li class="nav-item">
+                                    <a href="#" class="nav-link">
+                                        <span data-cart-items="1">
+                                            <i class="fas fa-shopping-cart"></i>
+                                        </span>
+                                    </a>
+                                </li>
+                                <li class="nav-item">
+                                    <a href="#" class="nav-link"><i class="far fa-user"></i></a>
+                                </li>
+                            </ul><!-- #top-btns -->
 
                         </div><!-- Navbar Collapse -->
 
@@ -127,6 +119,8 @@
 
             <div class="content-wrap">
 
+                <!-- Page Top
+                ============================================= -->
                 <div id="page-top" class="py-3">
 
                     <div class="container">
@@ -138,28 +132,24 @@
                             </ul>
                         </div>
 
-                    </div>
-
-                </div>
-
-                <div class="container">
-
-                    <div class="section border-top pb-0">
-
-                        <div class="heading-block">
-                            <h2 class="title h1">Contact Us</h2>
+                        <div id="page-title" class="border-top pt-4">
+                            <h1 class="title">Contact Us</h1>
                         </div>
 
                     </div>
 
-                </div>
+                </div><!-- Page Top -->
 
+                <!-- Contact Info
+                ============================================= -->
                 <div class="position-relative">
-                    <img src="./images/contact/map.png" class="img-fluid w-100">
+                    <div id="map">
+                        <img src="./images/contact/map.png" class="img-fluid w-100">
+                    </div>                    
 
-                    <div class="contact d-flex justify-content-center">
+                    <div class="contact-info d-flex justify-content-center">
 
-                        <div class="contact-info d-lg-flex justify-content-center text-center text-lg-start">
+                        <div class="contact-info-details d-lg-flex justify-content-center text-center text-lg-start">
                             <a href="#" class="icon-box">
                                 <div class="icon-header">
                                     <p class="mb-0">Phone</p>
@@ -183,15 +173,17 @@
                         </div>
                     </div>
 
-                </div>
+                </div><!-- contact Info -->
 
+                <!-- Contact Form
+                ============================================= -->
                 <div class="container mt-5">
 
                     <div class="section border-top">
 
                         <div class="row">
 
-                            <div class="col-lg-5">
+                            <div class="col-lg-4">
                                 
                                 <div class="heading-block">
                                     <h2 class="title h1">send message</h2>
@@ -213,29 +205,37 @@
 
                                 <div class="row">
 
-                                    <div class="col-lg-9">
+                                    <div class="col-lg-5">
 
                                         <div class="row">
 
-                                            <div class="col-lg-4">
+                                            <div class="col mb-3">
                                                 <input type="text" value="" class="form-control border-bottom" name="email" id="contactFormEmail" placeholder="Enter Email" required>                           
                                             </div>
-
-                                            <div class="col-lg-4">
+        
+                                            <div class="col mb-3">
                                                 <input type="text" value="" class="form-control border-bottom" name="name" id="contactFormName" placeholder="Enter Name" required>                           
-                                            </div>
-
-                                            <div class="col-lg-4">
-                                                <input type="text" value="" class="form-control border-bottom" name="name" id="contactFormMessage" placeholder="Enter Message" required>                           
                                             </div>
 
                                         </div>
 
                                     </div>
 
-                                    <div class="col-lg-3">
-                                        <button class="btn btn-primary text-white text-uppercase">subscribe to news</button>
-                                    </div>
+                                    <div class="col-lg-5">
+
+                                        <div class="row">
+
+                                            <div class="col-lg-6 mb-3">
+                                                <input type="text" value="" class="form-control border-bottom" name="name" id="contactFormMessage" placeholder="Enter Message" required>                           
+                                            </div>
+        
+                                            <div class="col-lg-4">
+                                                <button class="btn btn-primary text-white text-uppercase">subscribe to news</button>
+                                            </div> 
+
+                                        </div>                                        
+
+                                    </div>                             
 
                                 </div>
 
@@ -251,7 +251,7 @@
 
         </section><!-- Content -->
 
-         <!-- Footer
+        <!-- Footer
 		============================================= -->
 		<footer id="footer">
             
@@ -263,15 +263,15 @@
 
                     <div class="row">
 
-                        <div class="col-lg-2 text-center text-lg-start">
+                        <div class="col-lg-2 text-center text-sm-start pb-4 pb-sm-0">
                             <a href="index.html" class="navbar-brand me-0" data-dark-logo="images/logo.png">
                                 <img src="images/footer-logo.png" alt="Saler Logo">
                             </a>
                         </div>
 
-                        <div class="col-md-6 col-lg-2">
+                        <div class="col-sm-6 col-lg-3 d-flex flex-column flex-sm-row pb-4 pb-sm-0">
 
-                            <div class="widget widget-links text-center text-lg-start">
+                            <div class="widget widget-links flex-fill text-center text-sm-start">
                                 <p class="widget-title">catalogue</p>
                                 <div class="widget-content">
                                     <ul class="list-group mb-2">
@@ -283,11 +283,7 @@
                                 </div>                            
                             </div>
 
-                        </div>
-
-                        <div class="col-md-6 col-lg-2 border-end" style="border-color: #3f3f3f !important;">
-
-                            <div class="widget widget-links text-center text-lg-start">
+                            <div class="widget widget-links flex-fill text-center text-sm-start">
                                 <p class="widget-title">About Us</p>
                                 <div class="widget-content">
                                     <ul class="list-group mb-2">
@@ -301,10 +297,12 @@
                             </div>
 
                         </div>
-                        
-                        <div class="col-md-6 col-lg-2 offset-xl-1">
 
-                            <div class="widget widget-custom-html text-center text-lg-start">
+                        <div class="col-1 border-start d-none d-lg-block" style="border-color: #3f3f3f !important;"></div>
+                        
+                        <div class="col-sm-4 col-lg-2 pb-4 pb-sm-0">
+
+                            <div class="widget widget-custom-html text-center text-sm-start">
                                 <p class="widget-title">Contact Us</p>
                                 <div class="widget-content">
                                     <p class="mb-0">Adress</p>
@@ -318,9 +316,9 @@
 
                         </div>
 
-                        <div class="col-lg-3">
+                        <div class="col-lg-2">
                                 
-                            <div class="widget widget-social mb-lg-0 text-center text-lg-start">
+                            <div class="widget widget-social mb-lg-0">
                                 <div class="widget-content">
                                     <ul class="social-icons d-flex align-items-center justify-content-center justify-content-lg-start">
                                         <li><a href="#" target="_blank" title="Facebook"><i class="fab fa-facebook-f"></i></a></li>
@@ -330,12 +328,12 @@
                                 </div>
                             </div>
 
-                            <div class="widget widget-payment mt-lg-4 mb-lg-0  text-center text-lg-start">
+                            <div class="widget widget-payment mt-lg-4 mb-lg-0">
                                 <div class="widget-content">
-                                    <div class="payments d-flex justify-content-center justify-content-lg-start">
-                                        <span class="payment-icon"><img src="images/payments/visa.png" alt="Visa"></span>
-                                        <span class="payment-icon"><img src="images/payments/mastercard.png" alt="Mastercard"></span>
-                                        <span class="payment-icon"><img src="images/payments/paypal.png" alt="Paypal"></span>
+                                    <div class="payments d-lg-flex justify-content-center justify-content-lg-start text-center text-lg-start">
+                                        <span class="payment-icon"><img src="images/payments/visa.png" alt="Visa" class="img-fluid"></span>
+                                        <span class="payment-icon"><img src="images/payments/mastercard.png" alt="Mastercard" class="img-fluid"></span>
+                                        <span class="payment-icon"><img src="images/payments/paypal.png" alt="Paypal" class="img-fluid"></span>
                                     </div>                                    
                                 </div>
                             </div>
@@ -350,10 +348,10 @@
 
                     <div class="row">
 
-                        <div class="col-lg-5 offset-lg-7">
+                        <div class="col-lg-4 offset-lg-6">
                             <div id="copyright" class=" d-flex justify-content-center gap-5 justify-content-lg-start">
-                                <p class="mb-0">Copyright &copy; 2020 Home</p>
-                                <p class="mb-0 ms-lg-5">All Rights Reserved</p>
+                                <span>Copyright &copy; 2020 Home</span>
+                                <span class="ms-lg-5">All Rights Reserved</span>
                             </div>
                         </div>
 
@@ -366,5 +364,16 @@
         </footer><!-- #footer -->
 
     </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+    <!-- Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
+    
+    <!-- Slick JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.js" integrity="sha512-HGOnQO9+SP1V92SrtZfjqxxtLmVzqZpjFFekvzZVWoiASSQgSr4cw9Kqd2+l8Llp4Gm0G8GIFJ4ddwZilcdb8A==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    
+    <!-- Theme JS -->
+    <script src="js/main.js"></script>
 
 </body>

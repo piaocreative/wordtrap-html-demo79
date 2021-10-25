@@ -14,25 +14,3 @@
 /* ----------------------------------------------------------------
 	Add here styles for team pages. Thanks!
 -----------------------------------------------------------------*/
-
-.team {
-    position: relative;
-
-    .team-image {
-        img {
-            width: 100%;
-        }
-    }
-
-    .team-name {
-        color: $dark;
-    }
-
-    .team-rating {
-        span{
-            &:nth-child(2) {
-                color: #b2b2b2;
-            }
-        }
-    }
-}

@@ -16,21 +16,12 @@
 -----------------------------------------------------------------*/
 
 #page-title {
-	position: absolute;
-	height: 100%;
-	top: 0;
-	right: 0;
-	left: 0;
-
+	margin-bottom: 2.5rem; 
+	position: relative;
+		
 	.title {
 		font-weight: 400;
-		line-height: 1.2;
-		letter-spacing: 0.05rem;
-	}
-
-	@include media-breakpoint-down(lg) {
-		padding-left: 1rem;
-		padding-right: 1rem;
+		line-height: 1.15;
 	}
 }
 
